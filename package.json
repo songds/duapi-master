@@ -1,0 +1,35 @@
+{
+  "name": "duapi",
+  "version": "0.0.4",
+  "description": "A CLI for 得物(毒) api 查询",
+  "main": "index.js",
+  "bin": {
+    "duapi": "./index.js"
+  },
+  "scripts": {
+    "pb": "npm publish . --access=public"
+  },
+  "keywords": [
+    "毒 api sign",
+    "得物 api sign",
+    "得物",
+    "毒",
+    "sneaker"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HereSinceres/duapi/issues"
+  },
+  "homepage": "https://github.com/HereSinceres/duapi#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "child_process": "^1.0.2",
+    "cli-table3": "^0.6.0",
+    "conf": "^6.2.4",
+    "esm": "^3.2.25",
+    "md5": "^2.2.1",
+    "minimist": "^1.2.5",
+    "urlencode": "^1.1.0"
+  }
+}
